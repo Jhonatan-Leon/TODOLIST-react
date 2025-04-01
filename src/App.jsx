@@ -1,9 +1,17 @@
-import { CreateTask } from './Components/CreateTask'
+import { FormTask } from './Components/FormTask'
+import { ListTask } from './Components/ListTask'
+import { Task } from './Components/Task'
+import { Content } from './Layout/Content/Content'
 
 function App() {
   return (
     <>
-      <CreateTask />
+      <Content>
+        <FormTask />
+        <ListTask>
+          <Task />
+        </ListTask> 
+      </Content>
     </>
   )
 }
