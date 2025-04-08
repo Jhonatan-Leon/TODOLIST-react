@@ -1,16 +1,13 @@
-import { FormTask } from './Components/FormTask'
-import { ListTask } from './Components/ListTask'
-import { Task } from './Components/Task'
+import { UlTask } from './Components/UlTask'
 import { Content } from './Layout/Content/Content'
+import { FormTask } from './Components/FormTask'
 
 function App() {
   return (
     <>
       <Content>
         <FormTask />
-        <ListTask>
-          <Task />
-        </ListTask> 
+        <UlTask />
       </Content>
     </>
   )
